@@ -14,7 +14,10 @@ So I've designed a small bracket that attaches to your existing light switch pla
 This is a simple Flask server that is run from your Raspberry Pi (or other single board computers) that can control that micro servo via a web interface over your local network!  
 Without messing with any existing electrical work!
 
-See Thingiverse.com post (I will post the link as soon as I make it)for the micro servo switch plate mount.
+See my [Thingiverse](https://www.thingiverse.com/Forgedinplastic3d/about) post (I will post the actual link as soon as I put it up)for the micro servo switch plate mount.
+  
+If you have a standard style light switch check out this [Servo Switch Plate Mount](https://www.thingiverse.com/thing:1156995) by carjo3000  
+I havent tried it but I'm sure you can make it work with some slight adjustments to the code!
 
 The servo I used: [Keywish MG90S](https://www.amazon.com/gp/product/B071J7BGV8/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1)  
 
@@ -22,6 +25,8 @@ The servo I used: [Keywish MG90S](https://www.amazon.com/gp/product/B071J7BGV8/r
 ## How to use RPi Light Switch 9000
 
 * **MAKE SURE TO CHANGE ALL OF MY IP ADDRESSES TO YOUR PI'S LOCAL ADDRESS!!**
+
+* **Adjust the `serv_pin` variable in `app.py` to your servos GPIO pin**
 
 * **Use the `test.py` to determine the correct ON/OFF angles for the servo.** 
 
