@@ -3,6 +3,8 @@
 
 Let me start by saying, I am **VERY** new to Python, HTML, and GitHub so please feel free to give me any advise you may have!  
 This is an awesome simple project if you are just starting with python, 3D printing or Raspberry Pi's.
+
+
 ---
 I really wanted some home automation (and I was bored),  
 but I live in a rented apartment in NYC and it turns out they really frown upon you messing with the apartment's wiring.
