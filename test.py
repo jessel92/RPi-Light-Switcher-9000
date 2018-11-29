@@ -23,11 +23,20 @@ def SetAngle(angle):
 
 
 def switch_on():
-    SetAngle(110)
+    SetAngle(110) #set angle in degrees
     sleep(1)
     SetAngle(90)
 
 def switch_off():
-    SetAngle(65)
+    SetAngle(65) #set angle in degrees
     sleep(1)
     SetAngle(90)
+
+
+
+
+switch_on()
+
+sleep(2)
+
+switch_off()
