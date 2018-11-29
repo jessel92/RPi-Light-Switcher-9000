@@ -22,7 +22,7 @@ from time import sleep
 
 serv_pin = 4 #signal pin for servo
 
-#Use the test file to determine the correct angle to turn the switch on and off
+#Use the test.py file to determine the correct angle to turn the switch on and off
 servo_on_angle = 110
 servo_off_angle = 65
 
@@ -84,4 +84,4 @@ def switch_func(switch_state):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')
