@@ -83,5 +83,6 @@ def switch_func(switch_state):
     return redirect("http://192.168.0.33:5000/") # Put your Pi's IP address here
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': #todo: Optimize speed of and reliablity of server
     app.run(debug=False, host='0.0.0.0', threaded=True)
+
