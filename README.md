@@ -6,7 +6,7 @@ This is an awesome simple project if you are just starting with python, 3D print
 
 
 ---
-I really wanted some home automation (and I was bored),  
+I really wanted some home automation (and I was bored),
 but I live in a rented apartment in NYC and it turns out they really frown upon you messing with the apartment's wiring.
 :stuck_out_tongue_winking_eye:  
 So I've designed a small bracket that attaches to your existing light switch plate that holds a micro servo which can turn on and off a paddle style light switch.
